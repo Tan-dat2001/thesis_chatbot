@@ -1,0 +1,249 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "How are you doing today?",
+        "How are you feeling?"
+      ],
+      "responses":[
+        "I'm doing great! and you?",
+        "I'm doing good! and you?",
+        "I'm doing good! and you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "Help please",
+        "I'm stuck"
+      ],
+      "responses": [
+        "Sure, I'll do my best to assist you.",
+        "Of course! What do you need help with?",
+        "I'm here to help. What seems to be the problem?",
+        "Don't worry, I'll help you figure it out."
+      ]
+    },
+    {
+      "tag": "about_bot",
+      "patterns": [
+        "What are you?",
+        "Who are you?",
+        "Tell me about yourself",
+        "What can you do?"
+      ],
+      "responses": [
+        "I am a chatbot designed to assist you with various tasks.",
+        "I'm a virtual assistant here to help you with your inquiries.",
+        "I'm an AI designed to provide assistance and answer your questions.",
+        "I'm here to help you with anything you need. Just ask!"
+      ]
+    },
+    {
+      "tag": "website_features",
+      "patterns": [
+        "What features does your website offer?",
+        "Can you list the functionalities available on the website?",
+        "What can I do on your website?",
+        "What services are available through your website?",
+        "Tell me about the features of your website."
+      ],
+      "responses": [
+        "Our website enables property owners to list their real estate for sale or rent, manage their listings, and facilitate connections with potential tenants or buyers.",
+        "You can use our platform to post your properties for sale or lease, manage your property listings, and directly connect with prospective clients.",
+        "We provide a comprehensive service that allows real estate owners to advertise their properties, handle property inquiries, and assist in establishing direct communications with interested parties.",
+        "Our site offers tools for listing your real estate for rent or sale, managing your listings efficiently, and supporting communication between property owners and potential customers.",
+        "We facilitate property listings for sale or rent, provide management tools for your listings, and help bridge the communication gap between property owners and potential buyers or renters."
+      ]
+    },
+    {
+      "tag": "property_category",
+      "patterns": [
+        "What types of properties can I list?",
+        "Can I list commercial properties?",
+        "What categories of real estate can I advertise?"
+      ],
+      "responses": [
+        "You can list various types of properties including villas, apartments, service apartments, houses, and studios.",
+        "Our platform supports a wide range of property listings such as villas, apartments, houses, service apartments, and studios.",
+        "We cater to different property categories including residential options like apartments, villas, houses, studios, and service apartments.",
+        "You can advertise various property types on our site, from luxurious villas to cozy studios, including houses and service apartments.",
+        "Whether you're looking to list a house, villa, studio, apartment, or service apartment, our platform accommodates all these categories."
+      ]
+    },
+    {
+      "tag": "posting_process",
+      "patterns": [
+        "How can I post my property for sale or rent?",
+        "What is the process to list my property?",
+        "How do I advertise my real estate?",
+        "Can you guide me on posting my property?"
+      ],
+      "responses": [
+        "To post your property for sale or rent on our website, you'll need to register as a Seller and then purchase Credits which you can use to list your real estate.",
+        "First, sign up to become a Seller on our platform, and then buy the necessary Credits to list your property, whether for sale or rent.",
+        "The process to list your property involves registering as a Seller and purchasing Credits, which you will then use to advertise your real estate on our site.",
+        "You need to register as a Seller first, and after that, purchase Credits, which will enable you to post your property for sale or rent on our website."
+      ]
+    },
+    {
+      "tag": "property_management",
+      "patterns": [
+        "How can I manage my property listings?",
+        "What tools are available to manage my real estate listings?",
+        "Can I edit my property details after posting?",
+        "Tell me about the property management features."
+      ],
+      "responses": [
+        "We provide a suite of tools that allow you to manage and track your real estate listings effectively. You can add, edit, or delete properties; manage transactions; and access visual reports with charts.",
+        "Our platform offers comprehensive property management features including the ability to modify your listings, track transactions, and analyze your property data with intuitive charts and reports.",
+        "You can manage your property listings by adding new properties, editing existing details, or removing listings as needed. Additionally, manage your transactions and visualize data through detailed charts and reports.",
+        "To help you keep track of your real estate, our system includes features for adding, editing, and deleting property listings, managing transaction records, and creating visual representations of your data through charts."
+      ]
+    },
+    {
+      "tag": "contact_seller",
+      "patterns": [
+        "How can I contact the seller?",
+        "What is the way to get in touch with the property seller?",
+        "Is there a way to contact the seller directly?"
+      ],
+      "responses": [
+        "You can contact the seller through the Contact Form available on each Property detail page."
+      ]
+    },
+    {
+      "tag": "property_information",
+      "patterns": [
+        "What information do you provide about a property?",
+        "What details are included in the property listings on your website?",
+        "Can you tell me what features are listed for each property?"
+      ],
+      "responses": [
+        "We provide detailed information about each property, including the name, a photo album, price, status, number of bedrooms, number of floors, number of bathrooms, land area, usable area, orientation, location on Google Maps, and a detailed description of the property."
+      ]
+    },
+    {
+      "tag": "property_listing",
+      "patterns": [
+        "Can I list properties for rent or sale directly on your website?",
+        "Is it possible to sell or rent out properties directly through your website?"
+      ],
+      "responses": [
+        "We provide a service for listing properties, and the buying, selling, or renting process is handled directly by the seller."
+      ]
+    },
+    {
+      "tag": "search_property",
+      "patterns": [
+        "I want to find a house with more than 2 bedrooms",
+        "I want to find a property with a land area of at least 100 square meters.",
+        "I am looking for a property that is at least 100 square meters in size.",
+        "I want to find a property with a usable area of at least 80 square meters.",
+        "I want to find a property priced under 3 millionUSD .",
+        "I want to find a property located in the city center.",
+        "I want to find a property that is ready to move in immediately."
+      ],
+      "responses": [
+        "We provide a service for listing properties, and the buying, selling, or renting process is handled directly by the seller."
+      ]
+    }
+  ]
+}
