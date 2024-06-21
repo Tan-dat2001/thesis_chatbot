@@ -1,5 +1,1 @@
-fastapi
-torch
-nltk
-mysql-connector-python
-numpy
+python-3.12.3
