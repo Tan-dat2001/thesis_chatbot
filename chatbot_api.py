@@ -5,6 +5,7 @@ import mysql.connector
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 import re
+import uvicorn
 
 #api
 from fastapi import FastAPI, Request
@@ -218,3 +219,7 @@ async def chatbot(message: Message):
                     return {"response": random.choice(intent['responses'])}
     else:
         return {"response": "I do not understand..."}
+
+
+if __name__ == "__main__":
+    uvicorn.run("chatbot_api:app", host="0.0.0.0", port="8000")
